@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5400</color>
+    <color name="colorPrimaryDark">#cc5014</color>
+    <color name="colorAccent">#ff3030</color>
+
+    <color name="colorTheme1Primary">#0000cc</color>
+    <color name="colorTheme1PrimaryDark">#000066</color>
+    <color name="colorTheme1Accent">#ffeeff</color>
+
+    <color name="colorTheme2Primary">#00a3cc</color>
+    <color name="colorTheme2PrimaryDark">#006680</color>
+    <color name="colorTheme2Accent">#ffeeff</color>
+
+    <color name="colorTheme3Primary">#4d0000</color>
+    <color name="colorTheme3PrimaryDark">#330000</color>
+    <color name="colorTheme3Accent">#ffeeff</color>
+
+    <color name="colorTheme4Primary">#004f99</color>
+    <color name="colorTheme4PrimaryDark">#003566</color>
+    <color name="colorTheme4Accent">#ffeeff</color>
+
+    <color name="colorTheme5Primary">#006666</color>
+    <color name="colorTheme5PrimaryDark">#003333</color>
+    <color name="colorTheme5Accent">#ffeeff</color>
+
+    <color name="colorTheme6Primary">#4d9900</color>
+    <color name="colorTheme6PrimaryDark">#264d00</color>
+    <color name="colorTheme6Accent">#ffeeff</color>
+
+    <color name="colorTheme7Primary">#002841</color>
+    <color name="colorTheme7PrimaryDark">#000d1a</color>
+    <color name="colorTheme7Accent">#ffeeff</color>
+
+    <color name="colorTheme8Primary">#cc0000</color>
+    <color name="colorTheme8PrimaryDark">#800000</color>
+    <color name="colorTheme8Accent">#ffeeff</color>
+
+</resources>

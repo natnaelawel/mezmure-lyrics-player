@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorPrimary">?themePrimary</item>
+        <item name="colorPrimaryDark">?themePrimaryDark</item>
+        <item name="colorAccent">?themeAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Default">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorPrimary</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Theme1">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme1Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme1PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme2">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme2Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme2PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme3">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme3Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme3PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme4">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme4Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme4PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme5">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme5Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme5PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme6">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme6Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme6PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme7">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme7Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme7PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Theme8">
+        <!-- Customize your theme here. -->
+        <item name="themePrimary">@color/colorTheme8Primary</item>
+        <item name="themePrimaryDark">@color/colorTheme8PrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Dialog.FullScreen" parent="Theme.AppCompat.Dialog">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="TextOutline">
+        <item name="android:shadowColor">@android:color/holo_blue_dark</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NavigationView">
+        <item name="android:height">20dp</item>
+        <item name="android:itemPadding">2dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!--<style name="Theme1AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorTheme1Primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorTheme1PrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorTheme1Accent</item>-->
+    <!--</style>-->
+
+
+
+</resources>

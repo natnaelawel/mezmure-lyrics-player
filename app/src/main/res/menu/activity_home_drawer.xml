@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/quiz_menu"
+            android:icon="@drawable/ic_quiz_icon"
+            android:title="የመጽሐፍ ቅዱስ ጥያቄ\n (Bible Quiz)" />
+        <item
+            android:id="@+id/quotes_menu"
+            android:icon="@drawable/ic_format_quote"
+            android:title="የመጽሐፍ ቅዱስ ጥቅስ\n (Bible Verses)" />
+        <item
+            android:id="@+id/quote_of_the_day"
+            android:icon="@drawable/ic_daily_quote"
+            android:title="የእለቱ ጥቅስ \n (Bible Verses)" />
+
+        <item
+            android:id="@+id/favourites_menu"
+            android:icon="@drawable/ic_favorite"
+            android:title="የተመረጡ\n (Favourites)" />
+
+    </group>
+
+    <item android:title="Other"
+        >
+        <menu>
+            <item
+                android:id="@+id/settings_menu"
+                android:icon="@drawable/ic_settings_black"
+                android:title="ገጽታ ቀይር\n (Change Theme)" />
+            <item
+                android:id="@+id/nav_help_menu"
+                android:icon="@drawable/ic_quiz_hint"
+                android:title="እርዳታ\n (Help)" />
+            <item
+                android:id="@+id/nav_exit_menu"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="መውጫ\n (Exit)" />
+        </menu>
+    </item>
+
+</menu>

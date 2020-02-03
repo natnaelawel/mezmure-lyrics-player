@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="search"
+        android:id="@+id/search_bar"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:title="Help"
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="3"/>
+    <item android:title="Terms and Regulation"
+        android:id="@+id/terms"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"/>
+    <item android:title="Exit"
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Lyrics_viewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/lyricsScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/lyrics_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sample Text"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:gravity="center"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:backgroundTint="?themePrimary"
+                android:splitTrack="false"
+                android:progressTint="?themePrimaryDark"
+                android:layout_height="wrap_content"
+                android:minHeight="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:id="@+id/current_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="0:00"
+                    android:textSize="12sp"/>
+                <ImageButton
+                    android:id="@+id/play_pause_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="?themePrimary"
+                    android:background="@drawable/ic_play_button"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/total_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?themePrimary"
+                    android:text="0:00"
+                    android:gravity="end"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+</FrameLayout>

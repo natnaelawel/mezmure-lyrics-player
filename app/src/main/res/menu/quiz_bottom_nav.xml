@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/prev"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_skip_prev"
+        android:title="ቀዳሚ(Prev)"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/hint"
+        android:title="ጥቅሻ(Hint)"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_quiz_hint"
+        android:orderInCategory="2"/>
+
+    <item android:title="ቀጣይ(Next)"
+        android:id="@+id/next"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_skip_next"
+        android:orderInCategory="3"/>
+</menu>

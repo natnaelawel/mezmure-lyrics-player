@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="fav"
+        android:id="@+id/is_fav"
+        app:showAsAction="always"
+        android:orderInCategory="300"/>
+    <item android:title="Help"
+        android:id="@+id/choose_song"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_queue_music"
+        android:orderInCategory="300"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:title="Help"
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="3"/>
+    <item android:title="Terms and Regulation"
+        android:id="@+id/terms"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"/>
+    <item android:title="Exit"
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+</menu>
